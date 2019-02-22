@@ -1,0 +1,26 @@
+// http://ionicframework.com/docs/theming/
+@import "~@ionic/angular/css/core.css";
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+
+:root {
+  --wc-font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco",
+    "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+  --wc-link-text-color: #2779bd;
+  --wc-link-text-color-hover: #3490dc;
+  --wc-price-text-color: #cb1829;
+  --wc-button-background: #1f9d55;
+  --wc-button-background-hover: #38c172;
+  /* --wc-button-border-radius: 20px; */
+  --wc-button-text-color: #ffffff;
+
+  font-family: var(--wc-font-family);
+  // padding: 2rem;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "storybook",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@slate/web-components": "1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@storybook/addon-knobs": "^4.1.13",
+    "@storybook/html": "^4.1.13",
+    "babel-loader": "^8.0.5",
+    "storybook-readme": "^4.0.5"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 9001 -c .storybook"
+  }
+}

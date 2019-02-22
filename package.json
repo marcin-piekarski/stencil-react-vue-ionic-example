@@ -1,0 +1,13 @@
+{
+  "name": "@slate/sandbox",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "private": true,
+  "dependencies": {
+    "faker": "^4.1.0"
+  }
+}

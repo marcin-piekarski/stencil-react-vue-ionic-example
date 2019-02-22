@@ -1,0 +1,29 @@
+:host(.width-full) {
+  .wc-button {
+    width: 100%;
+  }
+}
+
+.wc-button {
+  background: var(--wc-button-background, #3d4852);
+  border-radius: var(--wc-button-border-radius, 5px);
+  color: var(--wc-button-text-color, #ffffff);
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: var(--wc-font-family, "Comic Sans MS");
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  padding: 1rem 0.5rem;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+
+  &:hover {
+    background: var(--wc-button-background-hover, #606f7b);
+  }
+}

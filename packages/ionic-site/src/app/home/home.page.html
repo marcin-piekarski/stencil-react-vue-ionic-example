@@ -1,0 +1,25 @@
+<ion-content padding>
+  <h1 class="mb-1 title">{{ productData.data.category.name }}</h1>
+  <div class="container">
+    <wc-card
+      class="grid-item"
+      *ngFor="let item of productData.data.category.products.items"
+    >
+      <wc-image
+        class="mb-1"
+        [imageSrc]="item.small_image"
+        [imageAlt]="item.name"
+      ></wc-image>
+      <wc-link
+        class="mb-1"
+        [linkHref]="productHref"
+        [linkTitle]="item.name"
+      ></wc-link>
+      <wc-price
+        class="mb-1"
+        [priceNumber]="item.price.regularPrice.amount.value"
+      ></wc-price>
+      <wc-button class="width-full" button-title="Add to Cart"></wc-button>
+    </wc-card>
+  </div>
+</ion-content>

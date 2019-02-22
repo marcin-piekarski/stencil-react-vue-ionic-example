@@ -1,0 +1,11 @@
+.wc-price {
+  color: var(--wc-price-text-color, #3d4852);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: var(--wc-font-family, "Comic Sans MS");
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}

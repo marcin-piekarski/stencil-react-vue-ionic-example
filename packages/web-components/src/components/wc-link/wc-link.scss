@@ -1,0 +1,19 @@
+.wc-link {
+  color: var(--wc-link-text-color, #3d4852);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: var(--wc-font-family, "Comic Sans MS");
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  -webkit-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+
+  &:hover {
+    color: var(--wc-link-text-color-hover, #606f7b);
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,48 @@
+:root {
+  --wc-font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco",
+    "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+  --wc-link-text-color: #2779bd;
+  --wc-link-text-color-hover: #3490dc;
+  --wc-price-text-color: #cb1829;
+  --wc-button-background: #1f9d55;
+  --wc-button-background-hover: #38c172;
+  /* --wc-button-border-radius: 20px; */
+  --wc-button-text-color: #ffffff;
+
+  font-family: var(--wc-font-family);
+  padding: 2rem;
+}
+
+.mb-1 {
+  padding-bottom: 0.75rem;
+}
+.pb-1 {
+  padding-bottom: 1rem;
+}
+
+.max-w-xs {
+  max-width: 20rem;
+}
+
+#app {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.title {
+  color: #3d4852;
+}
+
+.container {
+  display: grid;
+  grid-auto-columns: -webkit-max-content;
+  grid-auto-columns: max-content;
+  grid-auto-flow: dense;
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 25px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid-item {
+  grid-column: span 1;
+  grid-row: span 1;
+}
